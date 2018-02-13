@@ -4,7 +4,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 inhibit_all_warnings!
 
-target 'MVVMReactiveCocoa' do
+target 'GithubMobile' do
     pod 'SDWebImage', '3.7.6'
     pod 'UIActivityIndicator-for-SDWebImage', '1.2'
     pod 'MBProgressHUD', '0.9.2'
@@ -26,7 +26,7 @@ target 'MVVMReactiveCocoa' do
     pod 'LCFInfiniteScrollView', :git => 'https://github.com/leichunfeng/LCFInfiniteScrollView.git', :commit => 'd32d988'
     pod 'YYKit', :git => 'https://github.com/leichunfeng/YYKit.git', :commit => '601b22d'
     
-    target 'MVVMReactiveCocoaTests' do
+    target 'GithubMobileTests' do
         inherit! :search_paths
     end
 end
